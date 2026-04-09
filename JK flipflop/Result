@@ -1,0 +1,502 @@
+
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test JK_test...
+# UVM_INFO sequence.sv(18) @ 0: uvm_test_top.env.agt.sqr@@seq1 [JK_seq] starting JK fliflop sequence
+# UVM_INFO score.sv(30) @ 5: uvm_test_top.env.sbd [JK_scoreboard] PASS : Q=0 when J = 0 K = 0
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @684                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h0                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    0                            
+#   end_time                     time      64    5                            
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq1                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq1
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(30) @ 15: uvm_test_top.env.sbd [JK_scoreboard] PASS : Q=0 when J = 0 K = 1
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @717                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    5                            
+#   end_time                     time      64    15                           
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq1                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq1
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(30) @ 25: uvm_test_top.env.sbd [JK_scoreboard] PASS : Q=0 when J = 0 K = 1
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @725                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    15                           
+#   end_time                     time      64    25                           
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq1                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq1
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @733                         
+#   J                            integral  1     'h1                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    25                           
+#   end_time                     time      64    35                           
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq1                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq1
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @741                         
+#   J                            integral  1     'h1                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    35                           
+#   end_time                     time      64    45                           
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq1                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq1
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @749                         
+#   J                            integral  1     'h1                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    45                           
+#   end_time                     time      64    55                           
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq1                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq1
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @757                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    55                           
+#   end_time                     time      64    65                           
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq1                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq1
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @765                         
+#   J                            integral  1     'h1                          
+#   K                            integral  1     'h0                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    65                           
+#   end_time                     time      64    75                           
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq1                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq1
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(30) @ 85: uvm_test_top.env.sbd [JK_scoreboard] PASS : Q=1 when J = 0 K = 0
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @773                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h0                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    75                           
+#   end_time                     time      64    85                           
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq1                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq1
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @781                         
+#   J                            integral  1     'h1                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    85                           
+#   end_time                     time      64    95                           
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq1                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq1
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+run
+# UVM_INFO score.sv(19) @ 105: uvm_test_top.env.sbd [JK_scoreboard] reset check passed
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @789                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h0                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    95                           
+#   end_time                     time      64    105                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq2                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq2
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(19) @ 115: uvm_test_top.env.sbd [JK_scoreboard] reset check passed
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @797                         
+#   J                            integral  1     'h1                          
+#   K                            integral  1     'h0                          
+#   rst                          integral  1     'h0                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    105                          
+#   end_time                     time      64    115                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq2                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq2
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(19) @ 125: uvm_test_top.env.sbd [JK_scoreboard] reset check passed
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @805                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h0                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    115                          
+#   end_time                     time      64    125                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq2                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq2
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(19) @ 135: uvm_test_top.env.sbd [JK_scoreboard] reset check passed
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @813                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h0                          
+#   rst                          integral  1     'h0                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    125                          
+#   end_time                     time      64    135                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq2                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq2
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(19) @ 145: uvm_test_top.env.sbd [JK_scoreboard] reset check passed
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @821                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h0                          
+#   rst                          integral  1     'h0                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    135                          
+#   end_time                     time      64    145                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq2                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq2
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(19) @ 155: uvm_test_top.env.sbd [JK_scoreboard] reset check passed
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @829                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h0                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    145                          
+#   end_time                     time      64    155                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq2                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq2
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(19) @ 165: uvm_test_top.env.sbd [JK_scoreboard] reset check passed
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @837                         
+#   J                            integral  1     'h1                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h0                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    155                          
+#   end_time                     time      64    165                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq2                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq2
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(19) @ 175: uvm_test_top.env.sbd [JK_scoreboard] reset check passed
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @845                         
+#   J                            integral  1     'h1                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h0                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    165                          
+#   end_time                     time      64    175                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq2                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq2
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(19) @ 185: uvm_test_top.env.sbd [JK_scoreboard] reset check passed
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @853                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h0                          
+#   rst                          integral  1     'h0                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    175                          
+#   end_time                     time      64    185                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq2                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq2
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(19) @ 195: uvm_test_top.env.sbd [JK_scoreboard] reset check passed
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @861                         
+#   J                            integral  1     'h1                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h0                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    185                          
+#   end_time                     time      64    195                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq2                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq2
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+run
+# UVM_INFO score.sv(30) @ 205: uvm_test_top.env.sbd [JK_scoreboard] PASS : Q=0 when J = 0 K = 1
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @869                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    195                          
+#   end_time                     time      64    205                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq3                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq3
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(30) @ 215: uvm_test_top.env.sbd [JK_scoreboard] PASS : Q=0 when J = 0 K = 0
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @877                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h0                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    205                          
+#   end_time                     time      64    215                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq3                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq3
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(19) @ 225: uvm_test_top.env.sbd [JK_scoreboard] reset check passed
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @885                         
+#   J                            integral  1     'h1                          
+#   K                            integral  1     'h0                          
+#   rst                          integral  1     'h0                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    215                          
+#   end_time                     time      64    225                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq3                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq3
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(19) @ 235: uvm_test_top.env.sbd [JK_scoreboard] reset check passed
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @893                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h0                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    225                          
+#   end_time                     time      64    235                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq3                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq3
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(30) @ 245: uvm_test_top.env.sbd [JK_scoreboard] PASS : Q=0 when J = 0 K = 1
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @901                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    235                          
+#   end_time                     time      64    245                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq3                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq3
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @909                         
+#   J                            integral  1     'h1                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    245                          
+#   end_time                     time      64    255                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq3                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq3
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @917                         
+#   J                            integral  1     'h1                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    255                          
+#   end_time                     time      64    265                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq3                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq3
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(19) @ 275: uvm_test_top.env.sbd [JK_scoreboard] reset check passed
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @925                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h0                          
+#   rst                          integral  1     'h0                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    265                          
+#   end_time                     time      64    275                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq3                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq3
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @933                         
+#   J                            integral  1     'h1                          
+#   K                            integral  1     'h1                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    275                          
+#   end_time                     time      64    285                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq3                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq3
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO score.sv(30) @ 295: uvm_test_top.env.sbd [JK_scoreboard] PASS : Q=1 when J = 0 K = 0
+# ----------------------------------------------------------------------------
+# Name                           Type      Size  Value                        
+# ----------------------------------------------------------------------------
+# txn                            seq_item  -     @941                         
+#   J                            integral  1     'h0                          
+#   K                            integral  1     'h0                          
+#   rst                          integral  1     'h1                          
+#   Q                            integral  1     'h0                          
+#   begin_time                   time      64    285                          
+#   end_time                     time      64    295                          
+#   depth                        int       32    'd2                          
+#   parent sequence (name)       string    4     seq3                         
+#   parent sequence (full name)  string    29    uvm_test_top.env.agt.sqr.seq3
+#   sequencer                    string    24    uvm_test_top.env.agt.sqr     
+# ----------------------------------------------------------------------------
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 295: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   26
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [JK_scoreboard]    21
+# [JK_seq]     1
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# ** Note: $finish    : D:/Questa_Tool/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 295 ns  Iteration: 61  Instance: /tb_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at D:/Questa_Tool/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+quit -sim
+# End time: 14:18:46 on Apr 09,2026, Elapsed time: 0:15:14
+# Errors: 0, Warnings: 0
