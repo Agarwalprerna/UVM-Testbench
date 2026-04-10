@@ -1,0 +1,22 @@
+UVM_INFO score.sv(17) @ 110: uvm_test_top.e1.sb [scoreboard] PASS
+# UVM_INFO test.sv(26) @ 110: uvm_test_top [test] end of testcase
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 110: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   27
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [driver]    10
+# [scoreboard]    11
+# [sequence1]     1
+# [test]     1
+# ** Note: $finish    : D:/Questa_Tool/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 110 ns  Iteration: 54  Instance: /tb_top
+# 1
