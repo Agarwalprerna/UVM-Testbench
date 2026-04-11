@@ -1,0 +1,89 @@
+
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test mux_test...
+# UVM_INFO sequence1.sv(17) @ 0: uvm_test_top.e1.agt.sqr@@seq [sequence1] inside sequence body task 
+# UVM_INFO score.sv(26) @ 10: uvm_test_top.e1.sb [SCOREBOARD] PASS: sel = 1 in= 227 y = 1
+# UVM_INFO driver.sv(32) @ 10: uvm_test_top.e1.agt.drv [driver] DRIVER driving input = 227 , sel =1
+# -------------------------------
+# Name   Type         Size  Value
+# -------------------------------
+# tr     transaction  -     @669 
+#   in   integral     8     'he3 
+#   sel  integral     3     'h1  
+#   y    integral     1     'h0  
+# -------------------------------
+# UVM_INFO score.sv(26) @ 20: uvm_test_top.e1.sb [SCOREBOARD] PASS: sel = 111 in= 53 y = 0
+# UVM_INFO driver.sv(32) @ 20: uvm_test_top.e1.agt.drv [driver] DRIVER driving input = 53 , sel =111
+# -------------------------------
+# Name   Type         Size  Value
+# -------------------------------
+# tr     transaction  -     @669 
+#   in   integral     8     'h35 
+#   sel  integral     3     'h7  
+#   y    integral     1     'h0  
+# -------------------------------
+# UVM_INFO score.sv(26) @ 30: uvm_test_top.e1.sb [SCOREBOARD] PASS: sel = 100 in= 230 y = 0
+# UVM_INFO driver.sv(32) @ 30: uvm_test_top.e1.agt.drv [driver] DRIVER driving input = 230 , sel =100
+# -------------------------------
+# Name   Type         Size  Value
+# -------------------------------
+# tr     transaction  -     @669 
+#   in   integral     8     'he6 
+#   sel  integral     3     'h4  
+#   y    integral     1     'h0  
+# -------------------------------
+# UVM_INFO score.sv(26) @ 40: uvm_test_top.e1.sb [SCOREBOARD] PASS: sel = 100 in= 111 y = 0
+# UVM_INFO driver.sv(32) @ 40: uvm_test_top.e1.agt.drv [driver] DRIVER driving input = 111 , sel =100
+# -------------------------------
+# Name   Type         Size  Value
+# -------------------------------
+# tr     transaction  -     @669 
+#   in   integral     8     'h6f 
+#   sel  integral     3     'h4  
+#   y    integral     1     'h0  
+# -------------------------------
+# UVM_INFO score.sv(26) @ 50: uvm_test_top.e1.sb [SCOREBOARD] PASS: sel = 10 in= 128 y = 0
+# UVM_INFO driver.sv(32) @ 50: uvm_test_top.e1.agt.drv [driver] DRIVER driving input = 128 , sel =10
+# -------------------------------
+# Name   Type         Size  Value
+# -------------------------------
+# tr     transaction  -     @669 
+#   in   integral     8     'h80 
+#   sel  integral     3     'h2  
+#   y    integral     1     'h0  
+# -------------------------------
+# UVM_INFO score.sv(26) @ 60: uvm_test_top.e1.sb [SCOREBOARD] PASS: sel = 100 in= 141 y = 0
+# UVM_INFO driver.sv(32) @ 60: uvm_test_top.e1.agt.drv [driver] DRIVER driving input = 141 , sel =100
+# -------------------------------
+# Name   Type         Size  Value
+# -------------------------------
+# tr     transaction  -     @669 
+#   in   integral     8     'h8d 
+#   sel  integral     3     'h4  
+#   y    integral     1     'h0  
+# -------------------------------
+# UVM_INFO score.sv(26) @ 70: uvm_test_top.e1.sb [SCOREBOARD] PASS: sel = 100 in= 141 y = 0
+# UVM_INFO test.sv(27) @ 70: uvm_test_top [mux_test] end of testcase
+# UVM_INFO score.sv(26) @ 80: uvm_test_top.e1.sb [SCOREBOARD] PASS: sel = 100 in= 141 y = 0
+# UVM_INFO score.sv(26) @ 90: uvm_test_top.e1.sb [SCOREBOARD] PASS: sel = 100 in= 141 y = 0
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 90: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   21
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [SCOREBOARD]     9
+# [TEST_DONE]     1
+# [driver]     6
+# [mux_test]     1
+# [sequence1]     1
+# ** Note: $finish    : D:/Questa_Tool/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 90 ns  Iteration: 53  Instance: /tb_top
+# 1
