@@ -1,0 +1,169 @@
+UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test alu_test...
+# 
+#### Factory Configuration (*)
+# 
+# No instance overrides are registered with this factory
+# 
+# Type Overrides:
+# 
+#   Requested Type  Override Type   
+#   --------------  ----------------
+#   driver          alu_error_driver
+# 
+# All types registered with the factory: 48 total
+# (types without type names will not be printed)
+# 
+#   Type Name
+#   ---------
+#   agent
+#   alu_error_driver
+#   alu_test
+#   driver
+#   env
+#   monitor
+#   questa_uvm_recorder
+#   scoreboard
+#   sequence1
+#   sequencer
+#   transaction
+# (*) Types with no associated type name will be printed as <unknown>
+# 
+####
+# 
+# UVM_INFO sequence1.sv(17) @ 0: uvm_test_top.e1.agt.sqr@@seq [sequence1] inside sequence body task 
+# UVM_INFO alu_error_driver.sv(19) @ 0: uvm_test_top.e1.agt.drv [ERR_DRV] error driver A = 14 B =4 Sel=1
+# ----------------------------------
+# Name      Type         Size  Value
+# ----------------------------------
+# tr        transaction  -     @669 
+#   A       integral     4     'he  
+#   B       integral     4     'h4  
+#   sel     integral     3     'h1  
+#   rst     integral     1     'h1  
+#   result  integral     8     'h0  
+# ----------------------------------
+# UVM_INFO alu_error_driver.sv(19) @ 0: uvm_test_top.e1.agt.drv [ERR_DRV] error driver A = 8 B =5 Sel=7
+# ----------------------------------
+# Name      Type         Size  Value
+# ----------------------------------
+# tr        transaction  -     @669 
+#   A       integral     4     'h8  
+#   B       integral     4     'h5  
+#   sel     integral     3     'h7  
+#   rst     integral     1     'h0  
+#   result  integral     8     'h0  
+# ----------------------------------
+# UVM_INFO alu_error_driver.sv(19) @ 0: uvm_test_top.e1.agt.drv [ERR_DRV] error driver A = 14 B =0 Sel=4
+# ----------------------------------
+# Name      Type         Size  Value
+# ----------------------------------
+# tr        transaction  -     @669 
+#   A       integral     4     'he  
+#   B       integral     4     'h0  
+#   sel     integral     3     'h4  
+#   rst     integral     1     'h0  
+#   result  integral     8     'h0  
+# ----------------------------------
+# UVM_INFO alu_error_driver.sv(19) @ 0: uvm_test_top.e1.agt.drv [ERR_DRV] error driver A = 14 B =5 Sel=4
+# ----------------------------------
+# Name      Type         Size  Value
+# ----------------------------------
+# tr        transaction  -     @669 
+#   A       integral     4     'he  
+#   B       integral     4     'h5  
+#   sel     integral     3     'h4  
+#   rst     integral     1     'h0  
+#   result  integral     8     'h0  
+# ----------------------------------
+# UVM_INFO alu_error_driver.sv(19) @ 0: uvm_test_top.e1.agt.drv [ERR_DRV] error driver A = 7 B =15 Sel=2
+# ----------------------------------
+# Name      Type         Size  Value
+# ----------------------------------
+# tr        transaction  -     @669 
+#   A       integral     4     'h7  
+#   B       integral     4     'hf  
+#   sel     integral     3     'h2  
+#   rst     integral     1     'h1  
+#   result  integral     8     'h0  
+# ----------------------------------
+# UVM_INFO alu_error_driver.sv(19) @ 0: uvm_test_top.e1.agt.drv [ERR_DRV] error driver A = 0 B =9 Sel=4
+# ----------------------------------
+# Name      Type         Size  Value
+# ----------------------------------
+# tr        transaction  -     @669 
+#   A       integral     4     'h0  
+#   B       integral     4     'h9  
+#   sel     integral     3     'h4  
+#   rst     integral     1     'h0  
+#   result  integral     8     'h0  
+# ----------------------------------
+# UVM_INFO alu_error_driver.sv(19) @ 0: uvm_test_top.e1.agt.drv [ERR_DRV] error driver A = 3 B =7 Sel=3
+# ----------------------------------
+# Name      Type         Size  Value
+# ----------------------------------
+# tr        transaction  -     @669 
+#   A       integral     4     'h3  
+#   B       integral     4     'h7  
+#   sel     integral     3     'h3  
+#   rst     integral     1     'h0  
+#   result  integral     8     'h0  
+# ----------------------------------
+# UVM_INFO alu_error_driver.sv(19) @ 0: uvm_test_top.e1.agt.drv [ERR_DRV] error driver A = 15 B =12 Sel=5
+# ----------------------------------
+# Name      Type         Size  Value
+# ----------------------------------
+# tr        transaction  -     @669 
+#   A       integral     4     'hf  
+#   B       integral     4     'hc  
+#   sel     integral     3     'h5  
+#   rst     integral     1     'h0  
+#   result  integral     8     'h0  
+# ----------------------------------
+# UVM_INFO alu_error_driver.sv(19) @ 0: uvm_test_top.e1.agt.drv [ERR_DRV] error driver A = 2 B =12 Sel=1
+# ----------------------------------
+# Name      Type         Size  Value
+# ----------------------------------
+# tr        transaction  -     @669 
+#   A       integral     4     'h2  
+#   B       integral     4     'hc  
+#   sel     integral     3     'h1  
+#   rst     integral     1     'h1  
+#   result  integral     8     'h0  
+# ----------------------------------
+# UVM_INFO alu_error_driver.sv(19) @ 0: uvm_test_top.e1.agt.drv [ERR_DRV] error driver A = 14 B =6 Sel=5
+# ----------------------------------
+# Name      Type         Size  Value
+# ----------------------------------
+# tr        transaction  -     @669 
+#   A       integral     4     'he  
+#   B       integral     4     'h6  
+#   sel     integral     3     'h5  
+#   rst     integral     1     'h1  
+#   result  integral     8     'h0  
+# ----------------------------------
+# UVM_INFO test.sv(30) @ 10: uvm_test_top [alu_test] end of testcase
+# UVM_ERROR score.sv(40) @ 15: uvm_test_top.e1.sb [scoreboard] Fail opcode = 101 A =1111 B=0110 ->actual result=0 expected = 9
+# UVM_INFO monitor.sv(35) @ 15: uvm_test_top.e1.agt.mon [monitor] A =1111 B=110 sel=101 rst=0-> result = 0
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 30: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO score.sv(45) @ 30: uvm_test_top.e1.sb [scoreboard] final report -> PASS = 0 FAIL=1
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   18
+# UVM_WARNING :    0
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# ** Report counts by id
+# [ERR_DRV]    10
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [alu_test]     1
+# [monitor]     1
+# [scoreboard]     2
+# [sequence1]     1
+# ** Note: $finish    : D:/Questa_Tool/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 30 ns  Iteration: 53  Instance: /tb_top
