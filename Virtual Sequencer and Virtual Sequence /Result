@@ -1,0 +1,29 @@
+     (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test test...
+# UVM_INFO tb.sv(25) @ 0: uvm_test_top.e1.agt1.sqr1@@seq1 [sequence1] inside body task of sequence1
+# UVM_INFO tb.sv(43) @ 0: uvm_test_top.e1.agt2.sqr2@@seq2 [sequence2] inside body task of sequence2
+# UVM_INFO tb.sv(145) @ 0: uvm_test_top.e1.agt1.drv1 [driver1] driving from driver 1
+# UVM_INFO tb.sv(163) @ 0: uvm_test_top.e1.agt2.drv2 [driver2] driving from driver 2
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 50: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    8
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [driver1]     1
+# [driver2]     1
+# [sequence1]     1
+# [sequence2]     1
+# ** Note: $finish    : D:/Questa_Tool/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 50 ns  Iteration: 65  Instance: /tb
+# 1
