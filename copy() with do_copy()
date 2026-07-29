@@ -1,0 +1,65 @@
+
+`include "uvm_macros.svh"
+import uvm_pkg::*;
+
+	class trans extends uvm_object;
+
+		`uvm_object_utils(trans)
+
+		bit [3:0] addr;
+		bit [7:0] data;
+
+		function new(string name = "trans");
+			super.new(name);
+		endfunction
+
+
+		virtual function void do_copy(uvm_object rhs);
+
+                   trans t_h;
+
+		   $cast(t_h,rhs);  //assign parent class handle to child class handle safely
+
+		   this.addr = t_h.addr;
+		   this.data = t_h.data;
+
+		   super.do_copy(t_h);
+	   endfunction
+
+
+
+		function void display(string msg);
+			$display("[%s] : the value of addr:%0d and the value of data is %0d" , msg,addr,data);
+		endfunction
+
+	endclass
+
+
+module test;
+
+    trans tr_h1 ,tr_h2;
+
+    initial begin
+	    tr_h1 = trans::type_id::create("tr_h1");
+	    tr_h2 = trans::type_id::create("tr_h2");
+
+	    tr_h1.data = 50;
+	    tr_h1.addr = 40;
+
+	    tr_h2.copy(tr_h1);
+
+	    tr_h1.display("tr_h1");
+	    tr_h2.display("tr_h2");
+    end
+ endmodule
+
+
+//output
+
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# [tr_h1] : the value of addr:&0d and the value of data is 8 50
+# [tr_h2] : the value of addr:&0d and the value of data is 8 50
+
+
+
